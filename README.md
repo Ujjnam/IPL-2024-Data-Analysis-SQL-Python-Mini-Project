@@ -1,6 +1,6 @@
 🏏 IPL 2024 Data Analysis: SQL + Python Mini Project.
 
-	- **A beginner-friendly Oracle SQL & Python project to practice database design, complex analytical queries, business reporting, and data visualization using real IPL 2024 data.**
+	- A beginner-friendly Oracle SQL & Python project to practice database design, complex analytical queries, <br> business reporting, and data visualization using real IPL 2024 data.
 
 Perfect for SQL learners, Python beginners, and portfolio builders!
 
@@ -54,7 +54,7 @@ ipl-data-analysis/
 - ✅ **Python 3.8+**
 - ✅ **Libraries**: oracledb, pandas, matplotlib, openpyxl
 
-Steps
+**Steps**
 1. Set up Oracle DB
 	- Ensure you can connect via: system/system@localhost:1521/xepdb1
 	  (Modify connection string in Python files if needed)
@@ -76,7 +76,7 @@ Steps
 	- All charts saved in /plots folder
 	- Also displayed interactively during script run
 
-🛠️ Skills Demonstrated
+🛠️ **Skills Demonstrated**
 
 - ✅ **SQL**: Complex JOINs, CTEs, Window Functions (`ROW_NUMBER`, `SUM OVER`), Aggregations, Conditional Logic (`CASE`)
 - ✅ **Python**: Data cleaning, Oracle DB connectivity (`oracledb`), Error handling
@@ -84,19 +84,20 @@ Steps
 - ✅ **Matplotlib**: Bar, Horizontal Bar, Grouped Bar, Lollipop charts — with colors, labels, grids
 - ✅ **Data Storytelling**: Turning raw data into business insights with visualizations
 
-🤝 Contributing
-
+🤝 **Contributing**
 Found a bug? Want to add Query 7?
-- **👉 Fork this repo, make improvements, and submit a Pull Request!**
+- 👉 Fork this repo, make improvements, and submit a Pull Request!
 
-🙌 Acknowledgements
+🙌**Acknowledgements**
 
 - IPL 2024 Official Data Sources
 - Oracle Database Express Edition
 - Matplotlib & Pandas communities
 
-📬 Feedback / Questions?
-	- **Open an Issue or DM me on LinkedIn — I’d love to hear how this helped you!**
+📬 **Feedback**
+	- Open an Issue or DM me on LinkedIn <br>
+    — I’d love to hear how this helped you!
+
 
 
 
