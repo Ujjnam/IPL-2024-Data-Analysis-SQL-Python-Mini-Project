@@ -49,10 +49,10 @@ ipl-data-analysis/
 ```
 
 🚀 How to Run?
-- Prerequisites
--✅ **Oracle Database** (XE 21c or later recommended)
--✅ **Python 3.8+**
--✅ **Libraries**: oracledb, pandas, matplotlib, openpyxl
+- **Prerequisites**
+- ✅ **Oracle Database** (XE 21c or later recommended)
+- ✅ **Python 3.8+**
+- ✅ **Libraries**: oracledb, pandas, matplotlib, openpyxl
 
 Steps
 1. Set up Oracle DB
@@ -97,6 +97,7 @@ Found a bug? Want to add Query 7?
 
 📬 Feedback / Questions?
 	Open an Issue or DM me on LinkedIn — I’d love to hear how this helped you!
+
 
 
 
