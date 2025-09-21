@@ -95,8 +95,9 @@ Found a bug? Want to add Query 7?
 - Matplotlib & Pandas communities
 
 📬 **Feedback** <br>
-	- Open an Issue or DM me on LinkedIn <br>
-    - I’d love to hear how this helped you!
+	 - Open an Issue or DM me on LinkedIn <br>
+     - I’d love to hear how this helped you!
+
 
 
 
