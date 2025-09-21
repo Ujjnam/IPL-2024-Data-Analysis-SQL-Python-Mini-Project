@@ -1,5 +1,8 @@
 🏏 **IPL 2024 Data Analysis: SQL + Python Mini Project.**
-
+![IPL 2024 Home Advantage Analysis](plots/6_IPL_2024_Poits_Table.png)
+<p align="center">
+  <img src="plots/1_Teams_performance_at_Home_Ground.png" alt="IPL 2024 Home Advantage Analysis" width="80%">
+</p>
 	A beginner-friendly Oracle SQL & Python project using real IPL 2024 data.
 
 Perfect for SQL learners, Python beginners, and portfolio builders!
@@ -97,6 +100,7 @@ Found a bug? Want to add Query 7?
 📬 **Feedback** 
 - 📩 Open an Issue or DM me on LinkedIn  
 - ❤️ I’d love to hear how this helped you!
+
 
 
 
