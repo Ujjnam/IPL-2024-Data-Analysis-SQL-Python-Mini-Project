@@ -94,9 +94,10 @@ Found a bug? Want to add Query 7?
 - Oracle Database Express Edition
 - Matplotlib & Pandas communities
 
-📬 **Feedback** <br>
-	 - Open an Issue or DM me on LinkedIn <br>
-     - I’d love to hear how this helped you!
+📬 **Feedback** 
+- 📩 Open an Issue or DM me on LinkedIn  
+- ❤️ I’d love to hear how this helped you!
+
 
 
 
