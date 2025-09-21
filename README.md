@@ -48,8 +48,8 @@ ipl-data-analysis/
 └── README.md                       # You're here!
 ```
 
-🚀 How to Run
-Prerequisites
+🚀 How to Run?
+- Prerequisites
 ✅ Oracle Database (XE 21c or later recommended)
 ✅ Python 3.8+
 ✅ Libraries: oracledb, pandas, matplotlib, openpyxl
@@ -78,11 +78,11 @@ Steps
 
 🛠️ Skills Demonstrated
 
-✅ SQL: Complex JOINs, CTEs, Window Functions (ROW_NUMBER, SUM OVER), Aggregations, Conditional Logic (CASE)
-✅ Python: Data cleaning, Oracle DB connectivity (oracledb), Error handling
-✅ Pandas: DataFrame manipulation, SQL result ingestion, data type conversion
-✅ Matplotlib: Bar, Horizontal Bar, Grouped Bar, Lollipop charts — with colors, labels, grids
-✅ Data Storytelling: Turning raw data into business insights with visualizations
+✅ SQL: Complex JOINs, CTEs, Window Functions (ROW_NUMBER, SUM OVER), Aggregations, Conditional Logic (CASE).
+✅ Python: Data cleaning, Oracle DB connectivity (oracledb), Error handling.
+✅ Pandas: DataFrame manipulation, SQL result ingestion, data type conversion.
+✅ Matplotlib: Bar, Horizontal Bar, Grouped Bar, Lollipop charts — with colors, labels, grids.
+✅ Data Storytelling: Turning raw data into business insights with visualizations.
 
 🤝 Contributing
 
@@ -97,6 +97,7 @@ Found a bug? Want to add Query 7?
 
 📬 Feedback / Questions?
 	Open an Issue or DM me on LinkedIn — I’d love to hear how this helped you!
+
 
 
 
