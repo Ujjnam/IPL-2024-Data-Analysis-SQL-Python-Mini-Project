@@ -1,4 +1,5 @@
-🏏 IPL 2024 Data Analysis: SQL + Python Mini Project
+🏏 IPL 2024 Data Analysis: SQL + Python Mini Project.
+
 	A beginner-friendly Oracle SQL & Python project to practice database design, complex analytical queries, business reporting, and data visualization using real IPL 2024 data. 
 
 Perfect for SQL learners, Python beginners, and portfolio builders!
@@ -94,4 +95,5 @@ Found a bug? Want to add Query 7?
 
 📬 Feedback / Questions?
 	Open an Issue or DM me on LinkedIn — I’d love to hear how this helped you!
+
 
