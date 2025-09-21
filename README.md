@@ -14,8 +14,9 @@ This project loads IPL 2024 match, team, and player data into Oracle Database, r
 - 💪 Who are the Top 5 All-Rounders (Batting + Bowling)?
 - 🥇 Final Points Table based on wins
 
-🗃️ File Structure
+## 🗃️ File Structure
 
+```
 ipl-data-analysis/
 │
 ├── data/
@@ -45,6 +46,7 @@ ipl-data-analysis/
 │   └── 6_IPL_2024_Points_Table.png
 │
 └── README.md                       # You're here!
+```
 
 🚀 How to Run
 Prerequisites
@@ -95,6 +97,7 @@ Found a bug? Want to add Query 7?
 
 📬 Feedback / Questions?
 	Open an Issue or DM me on LinkedIn — I’d love to hear how this helped you!
+
 
 
 
