@@ -50,6 +50,7 @@ try:
     plt.xlabel('Venue',fontsize=12)
     plt.ylabel('Win Percentage(%)',fontsize=12)
     plt.xticks(rotation=45)
+	plt.grid(axis='y', linestyle='--', alpha=0.7, color='green')
     plt.tight_layout()
     plt.show()
 
@@ -62,3 +63,4 @@ finally:
         cur.close()
     if(conn):
         conn.close()
+
