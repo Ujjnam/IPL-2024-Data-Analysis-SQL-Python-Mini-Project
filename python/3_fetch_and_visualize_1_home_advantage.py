@@ -50,7 +50,7 @@ try:
     colors = [get_color(perc) for perc in df['WIN_PERCENTAGE']]
 
     plt.figure(figsize=(14,6))
-    plt.bar(df['TEAM_NAME'],df['WIN_PERCENTAGE'],color=colors)
+    plt.bar(df['TEAM_NAME'],df['WIN_PERCENTAGE'],color=colors, edgecolor='black')
     plt.title('IPL 2024 : Teams performance at Home Ground',fontsize=16 ,fontweight='bold')
     plt.xlabel('Teams',fontsize=12)
     plt.ylabel('Win %', fontsize=12)
@@ -67,3 +67,4 @@ finally:
         cur.close()
     if(conn):
         conn.close()
+
