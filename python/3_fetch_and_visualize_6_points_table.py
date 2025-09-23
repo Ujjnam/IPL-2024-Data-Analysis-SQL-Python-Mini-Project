@@ -45,21 +45,21 @@ try:
 
     df = pd.read_sql(sqlQuery, conn)
     def get_color(x):
-        return 'lightgreen' if(x >= df['POINTS'].quantile(0.75)) else 'orange' if(x == df['POINTS'].quantile(0.5)) else 'red'
+        return 'lightgreen' if(x >= df['POINTS'].quantile(0.75)) else 'orange' if(x == df['POINTS'].quantile(0.5)) else '#de3b26'
 
     # PLOTTING
 
-    plt.figure(figsize=(12,8))
-    plt.bar(df['TEAM'], df['POINTS'] ,color = [get_color(x) for x in df['POINTS']], edgecolor='black')
-    plt.title('IPL 2024 Points Table',fontsize=15,fontweight='bold')
-    plt.xlabel('Teams', fontsize=12)
-    plt.ylabel('Points' ,fontsize=12)
-    plt.xticks( ha='right', color='darkblue', fontsize=10)
-    plt.yticks(color='darkred', fontsize=10)
-    plt.grid(axis='y',linestyle='--',alpha=0.7)
+    plt.figure(figsize=(12, 8))
+    plt.bar(df['TEAM'], df['POINTS'], color=[get_color(x) for x in df['POINTS']], edgecolor='black')
+    plt.title('IPL 2024 Points Table', fontsize=15, fontweight='bold')
+    plt.xlabel('Teams', fontsize=14)
+    plt.ylabel('Points', fontsize=14)
+    plt.xticks(ha='right', color='#038a83', fontsize=12)
+    plt.yticks(color='#0c3370', fontsize=12)
+    plt.grid(axis='y', linestyle='--', alpha=0.7, color='green')
     plt.tight_layout()
     plt.show()
-
+    
 except Exception as err:
     print('Unable to connect to DB : ' , err)
 
@@ -68,3 +68,4 @@ finally:
         cur.close()
     if(conn):
         conn.close()
+
