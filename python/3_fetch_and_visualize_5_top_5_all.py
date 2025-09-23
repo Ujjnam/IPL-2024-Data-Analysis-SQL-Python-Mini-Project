@@ -39,17 +39,17 @@ try:
     # PLOTTING
 
     plt.figure(figsize=(12,8))
-    plt.hlines(y = df['PLAYER_LABEL'], xmin=0, xmax=df['ALL_ROUNDER_SCORE'], color='black', alpha=0.7, linewidth=3)
-    plt.scatter(df['ALL_ROUNDER_SCORE'], df['PLAYER_LABEL'], color = 'red', s=150, edgecolor='yellow', zorder=5)
-    plt.title('IPL 2024: Top 5 All-Rounders (Runs + Wickets*10)',fontsize=15,fontweight='bold')
-    plt.xlabel('All Rounder Score', fontsize=12)
-    plt.ylabel('Players' ,fontsize=12)
-    plt.xticks( ha='right', color='seagreen', fontsize=10)
-    plt.yticks(color='darkred', fontsize=10)
-    plt.grid(axis='x', linestyle='--', alpha=0.7)
+    plt.hlines(y = df['PLAYER_LABEL'], xmin=0, xmax=df['ALL_ROUNDER_SCORE'], color='seagreen', alpha=0.7, linewidth=3)
+    plt.scatter(df['ALL_ROUNDER_SCORE'], df['PLAYER_LABEL'], color = 'crimson', s=150, edgecolor='crimson', zorder=5)
+    plt.title('IPL 2024: Top 5 All-Rounders (Runs + Wickets*10)',fontsize=15, fontweight='bold')
+    plt.xlabel('All Rounder Score', fontsize=13)
+    plt.ylabel('Players' ,fontsize=13)
+    plt.xticks( ha='right', color='blue', fontsize=12)
+    plt.yticks(color='green', fontsize=12)
+    plt.grid(axis='x', linestyle='--', alpha=0.7, color='red')
     plt.tight_layout()
     plt.show()
-
+	
 except Exception as err:
     print('Unable to connect to DB : ' , err)
 
